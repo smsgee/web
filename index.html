@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/flutter_smsgee_web/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="SMSGEE - Pioneering On-Device Biometric Intelligence, Edge Computer Vision, and Face Explorer: The Ultra-Fast 100% Private Local Photo Organizer.">
+  <meta name="keywords" content="SMSGEE, Face Explorer, Biometrics, On-Device AI, Face Clustering, Edge Computer Vision, Privacy AI, SIMD C++">
+  <meta name="author" content="SMSGEE Inc.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- OpenGraph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SMSGEE | Pioneering On-Device Biometric Intelligence & Face Explorer">
+  <meta property="og:description" content="Ultra-fast neural inference, graph-based face clustering, and zero-cloud biometric privacy engineered in C++ for cross-platform edge deployments.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="SMSGEE">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <title>SMSGEE | Pioneering On-Device Biometric Intelligence & Face Explorer</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    body {
+      background-color: #07090E;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    /* Loading spinner before Flutter CanvasKit boots */
+    #loading {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #07090E;
+      z-index: 9999;
+      transition: opacity 0.4s ease;
+      pointer-events: auto;
+    }
+    .spinner {
+      width: 44px;
+      height: 44px;
+      border: 3px solid rgba(0, 242, 254, 0.15);
+      border-top-color: #00F2FE;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    .brand-title {
+      color: #F8FAFC;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-top: 18px;
+      font-size: 16px;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div id="loading">
+    <div class="spinner"></div>
+    <div class="brand-title">SMSGEE</div>
+  </div>
+
+  <script>
+    function removeLoader() {
+      var loader = document.getElementById("loading");
+      if (loader) {
+        loader.style.opacity = "0";
+        loader.style.pointerEvents = "none";
+        setTimeout(function() {
+          if (loader && loader.parentNode) {
+            loader.parentNode.removeChild(loader);
+          }
+        }, 400);
+      }
+    }
+    window.addEventListener("flutter-first-frame", function () {
+      removeLoader();
+    });
+    window.addEventListener("load", function () {
+      setTimeout(removeLoader, 1500);
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
