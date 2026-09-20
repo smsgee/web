@@ -11065,7 +11065,7 @@ case 4:s=l.a
 s===$&&A.a()
 s=A.by(s,200)
 r=A.by(A.a26(l,B.oQ,B.J3),24)
-q=A.by(A.a26(l,B.oQ,B.JJ),32)
+q=A.by(A.a26(l,B.oQ,B.JI),32)
 p=A.by(l.a,10)
 o=A.by(l.a,12)
 l.d===$&&A.a()
@@ -21564,7 +21564,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 aJw(a,b){var s=A.a5(b).i("aa<1,dv>")
 s=A.a2(new A.aa(b,new A.a30(),s),s.i("aA.E"))
-return A.aIM(!0,s,a,B.JZ,!0,B.Fs,null)},
+return A.aIM(!0,s,a,B.JY,!0,B.Fs,null)},
 auv(a){var s
 try{a.dr()}catch(s){a.MN()}a.w=B.Yl
 try{a.b5(A.aRM())}catch(s){}},
@@ -22179,7 +22179,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 z6(a,b){var s
-if(a.j(0,b))return new A.IL(B.K_)
+if(a.j(0,b))return new A.IL(B.JZ)
 s=A.b([],t.fJ)
 A.cr()
 a.mM(new A.a5C(b,A.az(t.u),s))
@@ -27713,7 +27713,7 @@ uR(){var s=this.as
 s===$&&A.a()
 return s},
 uS(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.JY
+if(a<0||b<0)return B.JX
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -32823,7 +32823,7 @@ if(m.f!==B.of){m.f=B.of
 m.OU()}}return m.d.a.YW(a)},
 OU(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-YV(a){if(B.b.u(B.JM,a))return this.f===B.hy
+YV(a){if(B.b.u(B.JL,a))return this.f===B.hy
 return!1}}
 A.a3y.prototype={
 $0(){return new A.i_(Date.now(),0,!1)},
@@ -39697,7 +39697,7 @@ if(o>0)return s
 return null}}
 A.aip.prototype={
 E(a,b){this.Mc(0,b,0,b.length,!1)},
-bp(a){this.Mc(0,B.JQ,0,0,!0)}}
+bp(a){this.Mc(0,B.JP,0,0,!0)}}
 A.arH.prototype={
 Mc(a,b,c,d,e){var s=this.b.ak9(b,c,d,e)
 if(s!=null)this.a.nn(s,0,s.length,e)}}
@@ -49022,7 +49022,7 @@ m=q.ay
 l=q.as
 q=q.ok
 q=q.p2
-if(q==null)q=B.Hi
+if(q==null)q=B.Hh
 k=A.z0(q,new A.dn(m,a1,a1,a1,a1,a2,a1,a1,a1),a1)
 if(a0.gn9()){a2=a0.gpj()
 a2.toString}else{a2=a0.gpj()
@@ -56947,7 +56947,7 @@ return new A.mv(r.a.cM(s.gi3()),r.b,r.c)},
 cL(a){var s=this.b
 return s.a.c.cL(a.V(0,s.gi3()))},
 pA(){var s,r,q=this.b,p=q.gi3()
-if(!isFinite(p.a)||!isFinite(p.b))return B.K0
+if(!isFinite(p.a)||!isFinite(p.b))return B.K_
 s=q.f
 if(s==null){s=q.a.c.pA()
 q.f=s}if(p.j(0,B.f))r=s
@@ -66290,7 +66290,7 @@ break
 case 1:return A.R(q,r)}})
 return A.S($async$D4,r)},
 a6n(a,b){var s,r,q,p
-if(a===b)return B.JV
+if(a===b)return B.JU
 s=A.b([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.jf(B.eU,a)
@@ -68326,7 +68326,7 @@ A.la.prototype={}
 A.ME.prototype={
 ld(a,b,c){var s,r,q,p,o,n=$.Y.a8$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.E,r=0;r<2;++r){q=B.JN[r]
+for(s=t.E,r=0;r<2;++r){q=B.JM[r]
 p=n.e
 p.toString
 o=A.atW(p,q,s)
@@ -68561,7 +68561,7 @@ r=n.gaau()
 q=n.a
 q=q.ch
 q.toString
-l.a=A.aJX(!0,A.aA4(B.m,r,s,q,A.aEj(),n.gabO(),m,n.gacd(),B.JS,!0,"nav",B.WM),"Navigator Scope",!0,m,m,m,m)}else n.a.toString
+l.a=A.aJX(!0,A.aA4(B.m,r,s,q,A.aEj(),n.gabO(),m,n.gacd(),B.JR,!0,"nav",B.WM),"Navigator Scope",!0,m,m,m,m)}else n.a.toString
 l.b=null
 s=n.a
 s.toString
@@ -70947,7 +70947,7 @@ h.EU()
 r=h.ga74()
 q=q.tR
 h.e!==$&&A.aW()
-h.e=new A.NU(f,new A.bX(B.LW,l),new A.pz(),p,B.cl,0,k,h.ga9c(),h.ga9e(),r,B.cl,0,j,h.ga96(),h.ga98(),r,i,B.JR,s,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.Je(),new A.Je())
+h.e=new A.NU(f,new A.bX(B.LW,l),new A.pz(),p,B.cl,0,k,h.ga9c(),h.ga9e(),r,B.cl,0,j,h.ga96(),h.ga98(),r,i,B.JQ,s,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.Je(),new A.Je())
 return h},
 vP(a,b){var s,r,q,p=this,o=p.a.c,n=o.a.a.length
 if(n<a.b||n<a.a)return
@@ -74474,7 +74474,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.N(b)!==A.u(s))return!1
 return b instanceof A.c8&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.cg(null,null)},
-gA(a){return A.L(this.a,this.b,null,this.d,A.bt(B.JW),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gA(a){return A.L(this.a,this.b,null,this.d,A.bt(B.JV),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.c.zE(B.j.on(this.a,16).toUpperCase(),5,"0")+")"}}
 A.pn.prototype={
 c8(a){return!this.w.j(0,a.w)},
@@ -75441,7 +75441,7 @@ b=r?a1:a3.fr
 if(b==null)b=a2.b.c.z
 a3=r?a1:a3.fx
 if(a3==null)a3=a2.b.c.Q
-a=new A.zQ(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.ta(a1),B.JT,e===!0,d,c,b,a3,A.aKP(a2))
+a=new A.zQ(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.ta(a1),B.JS,e===!0,d,c,b,a3,A.aKP(a2))
 if(!a.j(0,a0.e))a0.ag(new A.anm(a0,a))},
 TJ(){if(this.d==null)this.pl()},
 Gg(){this.pl()},
@@ -81572,7 +81572,7 @@ r.wY()
 return s.aZ()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gD6(),p=0;p<s.length;s.length===r||(0,A.y)(s),++p)s[p].J(0,q)
-o.b=B.JU
+o.b=B.JT
 o.y=!1
 o.dd()},
 dZ(a,b){return a.mi(b)},
@@ -84805,7 +84805,7 @@ g=g==null?e:g.k6(B.ez,12,B.U)
 f=d.To(k,j,i,b,s,r,q,p,o,h,g,c.G_(B.cO,11,B.b9,0.5),n,m,l)
 l=A.b([B.uT],t.Kg)
 m=A.azr(new A.fV(4,A.bj(10),B.j8),e,B.Ga,e,new A.fV(4,A.bj(10),B.j8),B.jk,!0,new A.fV(4,A.bj(10),B.BB),B.Ul)
-return new A.zK("/",new A.afl(),"SMSGEE | Pioneering On-Device Biometric Intelligence & Face Explorer",A.qK(B.am,B.eu,B.DJ,new A.mk(B.jk,e,e,e,new A.c9(A.bj(24),B.j8),e,e,e,e,e,e,e,e,e),l,m,B.eu,f,!0),!1,e)}}
+return new A.zK("/",new A.afl(),"SMSGEE | On-Device Biometric Intelligence",A.qK(B.am,B.eu,B.DJ,new A.mk(B.jk,e,e,e,new A.c9(A.bj(24),B.j8),e,e,e,e,e,e,e,e,e),l,m,B.eu,f,!0),!1,e)}}
 A.afl.prototype={
 $1(a){var s,r={},q=a.a,p=A.fv(q==null?"/":q,0,null)
 r.a=null
@@ -84897,14 +84897,14 @@ h=g}h=A.bp(n,A.aL("Ultra-fast neural inference, graph-based face clustering, and
 g=m.a
 s=A.oX(n,n,k,n,n,n,0,n,n,g,n,n,B.jS,n,new A.c9(A.bj(9999),B.o),n,n,n,n,n)
 q=A.K(a).ok.as
-s=A.oW(A.cp(A.b([B.Hm,B.ci,A.aL("Explore Face Explorer",n,n,n,q==null?n:q.ho(B.l,B.a1),n,n)],r),B.B,B.a2,B.ao),new A.alM(o),s)
+s=A.oW(A.cp(A.b([B.Hl,B.ci,A.aL("Explore Face Explorer",n,n,n,q==null?n:q.ho(B.l,B.a1),n,n)],r),B.B,B.a2,B.ao),new A.alM(o),s)
 q=A.aLf(n,n,n,n,n,n,n,n,n,n,n,n,B.jS,n,new A.c9(A.bj(9999),B.o),new A.aT(m.x,1.5,B.t,-1),n,n,n,n)
 p=A.K(a).ok.as
 s=A.avT(B.AL,A.b([s,new A.Md(new A.alN(o),n,n,n,q,n,n,!1,n,!0,n,A.aL("Enterprise Solutions",n,n,n,p==null?n:p.ho(m.Q,B.b9),n,n),n)],r),B.m7,12,16)
 q=l?260:340
 p=A.dF(k.b6(0.5),1.5)
 f=A.b([new A.b4(0,B.w,k.b6(0.25),B.f,20)],f)
-return A.eY(A.bp(n,A.cJ(A.b([B.A_,i,B.zY,new A.Kz("Pioneering On-Device\nBiometric Intelligence",j,m.fx,B.bf,n),B.e1,h,B.R4,s,B.R6,A.eY(A.ls(B.ae,A.b([new A.xa(q,n),A.bp(n,A.iO(B.kA,k,n,32),B.m,n,new A.bk(g,n,p,n,f,n,B.c2),n,70,n,n,n,n,n,70)],r),B.S,B.bZ,n),n,n),B.A_,o.a3p(a)],r),B.B,B.C),B.m,B.cJ,n,n,n,o.e,n,B.cP,n,n,n),n,n)},
+return A.eY(A.bp(n,A.cJ(A.b([B.A_,i,B.zY,new A.Kz("On-Device\nBiometric Intelligence",j,m.fx,B.bf,n),B.e1,h,B.R4,s,B.R6,A.eY(A.ls(B.ae,A.b([new A.xa(q,n),A.bp(n,A.iO(B.kA,k,n,32),B.m,n,new A.bk(g,n,p,n,f,n,B.c2),n,70,n,n,n,n,n,70)],r),B.S,B.bZ,n),n,n),B.A_,o.a3p(a)],r),B.B,B.C),B.m,B.cJ,n,n,n,o.e,n,B.cP,n,n,n),n,n)},
 a3p(a){var s,r=null,q=A.dP(a),p=A.bn(a,B.aY,t.w).w,o=t.N,n=A.b([A.am(["val","0ms","label","Cloud Latency (100% On-Device)"],o,o),A.am(["val","100k+","label","Face Images / Minute"],o,o),A.am(["val","512-D","label","Neural Embedding Vectors"],o,o),A.am(["val","0 Byte","label","Biometric Data Exfiltrated"],o,o)],t.m0)
 o=A.bj(24)
 s=A.dF(q.x,1)
@@ -84921,15 +84921,15 @@ m=A.K(a).ok.y
 m=A.aL("A complete edge computer vision portfolio designed to run entirely locally without dependencies on remote servers.",s,s,s,m==null?s:m.bv(r.as),s,s)
 if(p)q=1
 else q=A.bn(a,B.aY,q).w.a.a>=768&&A.bn(a,B.aY,q).w.a.a<1080?2:3
-return A.eY(A.bp(s,A.cJ(A.b([o,B.bY,n,B.bY,m,B.fs,A.auI(new A.BQ(q,20,20,p?1.4:1.15),new A.alR(B.JH),6,B.l2,!0)],t.p),B.a9,B.C),B.m,B.cJ,s,s,s,this.f,s,B.cP,s,s,s),s,s)},
+return A.eY(A.bp(s,A.cJ(A.b([o,B.bY,n,B.bY,m,B.fs,A.auI(new A.BQ(q,20,20,p?1.4:1.15),new A.alR(B.Js),6,B.l2,!0)],t.p),B.a9,B.C),B.m,B.cJ,s,s,s,this.f,s,B.cP,s,s,s),s,s)},
 a3m(a){var s=null,r=A.dP(a),q=A.bn(a,B.aY,t.w).w.a.a<768,p=r.ax,o=p.b6(0.12),n=A.bj(9999),m=A.K(a).ok.ax
 p=A.bp(s,A.aL("FLAGSHIP CONSUMER APP",s,s,s,m==null?s:m.fZ(p,11),s,s),B.m,s,new A.bk(o,s,s,n,s,s,B.x),s,s,s,s,B.dt,s,s,s)
 o=A.K(a).ok.c
 o=A.aL("Face Explorer: Local Photo Intelligence",s,s,s,o==null?s:o.hT(B.aE),B.bf,s)
 n=A.K(a).ok.y
-n=A.bp(s,A.aL("Organize 100,000+ local photos into biometric face clusters at blistering speeds. Works 100% offline with zero cloud tracking.",s,s,s,n==null?s:n.bv(r.as),B.bf,s),B.m,B.BN,s,s,s,s,s,s,s,s,s)
+n=A.bp(s,A.aL("Organize 100,000+ local photos into biometric face clusters at blistering speeds. Works 100% offline with on device process.",s,s,s,n==null?s:n.bv(r.as),B.bf,s),B.m,B.BN,s,s,s,s,s,s,s,s,s)
 m=q?1:2
-return A.eY(A.bp(s,A.cJ(A.b([p,B.bY,o,B.bY,n,B.fs,B.LV,B.R7,A.auI(new A.BQ(m,20,20,q?1.9:2.4),new A.alL(B.Jt,r),4,B.l2,!0)],t.p),B.B,B.C),B.m,B.cJ,s,s,s,this.r,s,B.cP,s,s,s),s,s)},
+return A.eY(A.bp(s,A.cJ(A.b([p,B.bY,o,B.bY,n,B.fs,B.LV,B.R7,A.auI(new A.BQ(m,20,20,q?1.9:2.4),new A.alL(B.K0,r),4,B.l2,!0)],t.p),B.B,B.C),B.m,B.cJ,s,s,s,this.r,s,B.cP,s,s,s),s,s)},
 Ll(a){var s=null,r=A.bj(16),q=A.dF(B.k.b6(0.08),1)
 return A.bp(s,A.aL('// SMSGEE High-Throughput Face Clustering Engine\n#include "smsgee/biometrics.hpp"\n\nnamespace smsgee {\n  class FaceClusteringEngine {\n  public:\n    ClusterGraph ProcessBatch(const std::vector<ImageBuffer>& stream) {\n      // 1. Hardware Accelerated Face Detection\n      auto detections = detector_->InferBatch(stream, DML_EXEC_PROVIDER);\n      \n      // 2. 512-D L2-Normalized Embedding Extraction\n      auto embeddings = embedder_->ExtractEmbeddings(detections);\n      \n      // 3. Unsupervised Graph Spectral Partitioning\n      return cluster_graph_->SolveConnectedComponents(\n        embeddings, \n        /* cosine_threshold */ 0.68f\n      );\n    }\n  };\n}',s,s,s,B.UD,s,s),B.m,s,new A.bk(B.DR,s,q,r,s,s,B.x),s,s,s,s,B.Gb,s,s,s)},
 Lo(a){var s=A.dP(a),r=t.N,q=t.jZ
@@ -85371,7 +85371,7 @@ p=A.aL("Inquiry Prepared",g,g,g,p==null?g:p.hT(B.a1),g,g)
 n=A.K(a).ok.z
 p=A.cJ(A.b([o,B.e1,p,B.is,A.aL("Your mail client has been dispatched to support@smsgee.com. Our engineering team will respond within 24 hours.",g,g,g,n==null?g:n.bv(f.as),B.bf,g),B.d5,A.oW(B.Ww,new A.ajs(a),A.oX(g,g,f.ax,g,g,g,g,g,g,B.l,g,g,B.Gi,g,new A.c9(A.bj(9999),B.o),g,g,g,g,g))],t.p),B.B,B.ao)}else{p=A.K(a).ok.r
 o=t.p
-p=A.cp(A.b([A.aL("Contact SMSGEE Engineering",g,g,g,p==null?g:p.hT(B.a1),g,g),A.auN(f.at,g,B.Hh,g,g,new A.ajt(a),g,g,g)],o),B.B,B.dD,B.C)
+p=A.cp(A.b([A.aL("Contact SMSGEE Engineering",g,g,g,p==null?g:p.hT(B.a1),g,g),A.auN(f.at,g,B.Hg,g,g,new A.ajt(a),g,g,g)],o),B.B,B.dD,B.C)
 n=A.K(a).ok.Q
 n=A.aL("Direct enterprise inquiries, SDK access, and custom vision requests.",g,g,g,n==null?g:n.bv(f.as),g,g)
 m=h.f
@@ -85530,7 +85530,7 @@ A.Dg.prototype={
 I(a){var s=null,r=this.c,q=A.bp(s,B.Hc,B.m,s,new A.bk(s,s,s,A.bj(7),s,r.dy,B.x),s,28,s,s,s,s,s,28),p=A.K(a).ok.w,o=t.p
 p=A.cp(A.b([q,B.ci,A.aL("SMSGEE",s,s,s,p==null?s:p.hT(B.aE),s,s)],o),B.B,B.a2,B.ao)
 q=A.K(a).ok.Q
-return A.cJ(A.b([p,B.bY,A.aL("Pioneering on-device biometric intelligence, high-throughput facial clustering, and edge computer vision software with zero cloud dependency.",s,s,s,q==null?s:q.FW(r.as,1.6),s,s)],o),B.a9,B.C)}}
+return A.cJ(A.b([p,B.bY,A.aL("On-device biometric intelligence, high-throughput facial clustering, and edge computer vision software on device process - no cloud dependency.",s,s,s,q==null?s:q.FW(r.as,1.6),s,s)],o),B.a9,B.C)}}
 A.dR.prototype={}
 A.lN.prototype={
 I(a){var s,r=null,q=A.dP(a),p=A.K(a).ok.as
@@ -85567,7 +85567,7 @@ B.b.R(l,A.b([new A.rc("Solutions",b==="solutions",g.c,f),B.e0,new A.rc("Architec
 q=c?"Get App":"Get Face Explorer"
 o=A.K(a5).ok.as
 l.push(A.oW(A.cp(A.b([B.Hn,B.ir,A.aL(q,f,f,f,o==null?f:o.ho(B.l,B.a1),f,f)],k),B.B,B.a2,B.ao),g.f,b))
-if(c)B.b.R(l,A.b([B.ci,A.auN(d.Q,f,B.Hl,f,f,new A.a6G(g,a5),f,f,f)],k))
+if(c)B.b.R(l,A.b([B.ci,A.auN(d.Q,f,B.Hk,f,f,new A.a6G(g,a5),f,f,f)],k))
 return A.eY(A.bp(f,A.rT(a3,A.It(A.bp(f,A.cp(l,B.B,B.a2,B.C),B.m,f,new A.bk(d.e,f,r,s,p,f,B.x),f,56,f,f,B.eM,f,f,f),a4),B.bj),B.m,f,f,f,f,f,new A.aj(a2,12,a2,12),f,f,f,a1),f,f)},
 aeT(a){var s,r,q,p,o,n,m,l,k,j,i=null,h=A.dP(a),g=A.eP(a,!1)
 A.iS(a,B.c_,t.c4).toString
@@ -85589,7 +85589,7 @@ $0(){this.a.aeT(this.b)},
 $S:0}
 A.a6F.prototype={
 $1(a){var s=null,r=A.K(this.b).ok.w,q=this.a
-return A.Nw(!0,new A.c1(B.nM,A.cJ(A.b([A.aL("SMSGEE Navigation",s,s,s,r==null?s:r.hT(B.a1),s,s),B.fr,A.Lr(B.Hk,new A.a6A(q,a),B.Wx),A.Lr(B.Hg,new A.a6B(q,a),B.Wv),A.Lr(B.Hf,new A.a6C(q,a),B.WC),A.Lr(B.Hj,new A.a6D(q,a),B.Wy),A.Lr(B.Hp,new A.a6E(q,a),B.WA)],t.p),B.c5,B.ao),s),B.aN,!0)},
+return A.Nw(!0,new A.c1(B.nM,A.cJ(A.b([A.aL("SMSGEE Navigation",s,s,s,r==null?s:r.hT(B.a1),s,s),B.fr,A.Lr(B.Hj,new A.a6A(q,a),B.Wx),A.Lr(B.Hm,new A.a6B(q,a),B.Wv),A.Lr(B.Hf,new A.a6C(q,a),B.WC),A.Lr(B.Hi,new A.a6D(q,a),B.Wy),A.Lr(B.Hp,new A.a6E(q,a),B.WA)],t.p),B.c5,B.ao),s),B.aN,!0)},
 $S:528}
 A.a6A.prototype={
 $0(){A.eP(this.b,!1).jr(null)
@@ -90082,7 +90082,7 @@ B.Dm=new A.ahb()
 B.an=new A.ahe()
 B.dj=new A.ahg()
 B.e5=new A.Py(0,0,0,0)
-B.JT=s([],A.ax("C<a1L>"))
+B.JS=s([],A.ax("C<a1L>"))
 B.ZC=new A.ahl()
 B.bk={}
 B.v1=new A.bV(B.bk,[],t.li)
@@ -90603,6 +90603,7 @@ B.cb=new A.yY(2,"translucent")
 B.GJ=new A.pm(null)
 B.GK=new A.c8(57490,"MaterialIcons",!0)
 B.GM=new A.c8(58372,"MaterialIcons",!1)
+B.kA=new A.c8(58513,"MaterialIcons",!1)
 B.GP=new A.c8(62109,"MaterialIcons",!1)
 B.ou=new A.c8(62329,"MaterialIcons",!1)
 B.GQ=new A.c8(62330,"MaterialIcons",!1)
@@ -90611,7 +90612,6 @@ B.GS=new A.c8(62819,"MaterialIcons",!1)
 B.GU=new A.c8(62922,"MaterialIcons",!1)
 B.GV=new A.c8(63013,"MaterialIcons",!1)
 B.GW=new A.c8(63030,"MaterialIcons",!1)
-B.kA=new A.c8(63277,"MaterialIcons",!1)
 B.H_=new A.c8(63488,"MaterialIcons",!1)
 B.H2=new A.c8(983132,"MaterialIcons",!1)
 B.H3=new A.c8(983200,"MaterialIcons",!1)
@@ -90628,19 +90628,19 @@ B.H6=new A.c8(983367,"MaterialIcons",!0)
 B.He=new A.ep(B.H6,16,B.l,null,null)
 B.ox=new A.c8(63667,"MaterialIcons",!1)
 B.Hf=new A.ep(B.ox,null,null,null,null)
-B.Hg=new A.ep(B.kA,null,null,null,null)
 B.GX=new A.c8(63047,"MaterialIcons",!1)
-B.Hh=new A.ep(B.GX,20,null,null,null)
+B.Hg=new A.ep(B.GX,20,null,null,null)
 B.GL=new A.c8(57496,"MaterialIcons",!1)
-B.Hi=new A.ep(B.GL,null,null,null,null)
+B.Hh=new A.ep(B.GL,null,null,null,null)
 B.ov=new A.c8(63199,"MaterialIcons",!1)
-B.Hj=new A.ep(B.ov,null,null,null,null)
+B.Hi=new A.ep(B.ov,null,null,null,null)
 B.oy=new A.c8(984598,"MaterialIcons",!1)
-B.Hk=new A.ep(B.oy,null,null,null,null)
+B.Hj=new A.ep(B.oy,null,null,null,null)
 B.H1=new A.c8(63670,"MaterialIcons",!1)
-B.Hl=new A.ep(B.H1,null,null,null,null)
+B.Hk=new A.ep(B.H1,null,null,null,null)
 B.GT=new A.c8(62870,"MaterialIcons",!1)
-B.Hm=new A.ep(B.GT,18,B.l,null,null)
+B.Hl=new A.ep(B.GT,18,B.l,null,null)
+B.Hm=new A.ep(B.kA,null,null,null,null)
 B.Hn=new A.ep(B.ov,16,B.l,null,null)
 B.Ho=new A.ep(B.ow,20,B.l,null,null)
 B.H0=new A.c8(63643,"MaterialIcons",!1)
@@ -90719,10 +90719,10 @@ B.I2=new A.px(1,"titleHeight")
 B.I3=new A.px(2,"top")
 B.oK=new A.px(3,"center")
 B.I4=new A.px(4,"bottom")
-B.JI=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
+B.JH=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
 B.Jn=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
 B.Ks=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
-B.I7=s([B.JI,B.Jn,B.Ks],t.zg)
+B.I7=s([B.JH,B.Jn,B.Ks],t.zg)
 B.oL=s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none","webSearch","twitter"],t.s)
 B.Ix=s([4,9,14,19],t.t)
 B.mk=new A.FB(0,"named")
@@ -90761,10 +90761,10 @@ B.J0=s([2.62226596,1.44717976],t.n)
 B.J7=s([2.7514899,1.53385819],t.n)
 B.JC=s([3.36298265,1.98288283],t.n)
 B.Jg=s([4.08649929,2.23811846],t.n)
-B.Js=s([4.85481134,2.47563463],t.n)
+B.Jt=s([4.85481134,2.47563463],t.n)
 B.J4=s([5.62945551,2.72948597],t.n)
 B.Je=s([6.43023796,2.98020421],t.n)
-B.oN=s([B.Jd,B.Ib,B.K3,B.K5,B.J0,B.J7,B.JC,B.Jg,B.Js,B.J4,B.Je],t.zg)
+B.oN=s([B.Jd,B.Ib,B.K3,B.K5,B.J0,B.J7,B.JC,B.Jg,B.Jt,B.J4,B.Je],t.zg)
 B.IZ=s(["Arial"],t.s)
 B.J_=s([B.j6,B.j7],A.ax("C<x4>"))
 B.J1=s(["-apple-system","BlinkMacSystemFont"],t.s)
@@ -90803,15 +90803,17 @@ B.Jp=s([B.C3],t.V)
 B.Aa=new A.C7(0,"left")
 B.Ab=new A.C7(1,"right")
 B.Jr=s([B.Aa,B.Ab],A.ax("C<C7>"))
-B.H7=new A.c8(983477,"MaterialIcons",!1)
-B.Oj=new A.q6("300+ Photos/Sec Parallel Scanning","Multi-threaded background worker pool decodes and scans directories concurrently with zero UI freeze.",B.H7)
-B.GY=new A.c8(63084,"MaterialIcons",!1)
-B.Ok=new A.q6("Hardware SHA-256 Deduplication","Instant file hashing detects duplicate photos, rotated copies, and exact matches across disks.",B.GY)
-B.H5=new A.c8(983357,"MaterialIcons",!1)
-B.Om=new A.q6("Vector Search & Smart Filtering","Search across clusters by person count, expression, photo date, camera model, or similar faces.",B.H5)
-B.GO=new A.c8(61586,"MaterialIcons",!1)
-B.Ol=new A.q6("Lossless Privacy Exporting","Export curated albums or batch-rename files into structured folders without modifying original assets.",B.GO)
-B.Jt=s([B.Oj,B.Ok,B.Om,B.Ol],A.ax("C<q6>"))
+B.Rm=new A.lr("Edge Face Detection & Landmark Extraction","Sub-millisecond SCRFD neural inference on local CPU/GPU. Detects multi-scale faces and 5 facial keypoints with on device process - zero cloud transmission.","SIMD / DML ACCELERATED","< 1.8ms latency",B.kA,B.cO)
+B.Rq=new A.lr("Zero-Cloud Privacy Architecture","100% of embeddings, facial vectors, and metadata remain strictly on user hardware. Full compliance with strict privacy regulations.","ABSOLUTE LOCAL SECURITY","0 KB Cloud Upload",B.ou,B.jj)
+B.Rp=new A.lr("Graph-Based Unsupervised Clustering","High-throughput Chinese Whispers & DBSCAN graph clustering algorithms capable of grouping 100,000+ faces in seconds.","CHINESE WHISPERS & DBSCAN","100k+ Photos / min",B.oy,B.fR)
+B.GZ=new A.c8(63091,"MaterialIcons",!1)
+B.Ro=new A.lr("Hardware SHA-256 & Exact Deduplication","Hardware-accelerated crypto hashing combined with 512-D cosine similarity detects duplicate photos, rotated copies, and bursts instantly.","ZERO-OVERHEAD DEDUP","2.4 GB/s Hash Speed",B.GZ,B.fX)
+B.H4=new A.c8(983280,"MaterialIcons",!1)
+B.nj=new A.w(1,0.9607843137254902,0.6196078431372549,0.043137254901960784,B.e)
+B.Rn=new A.lr("High-Precision ArcFace Recognition","Deep 512-dimensional facial embeddings trained on diverse global identities for state-of-the-art cosine similarity recognition.","512-D ARCFACE EMBEDDINGS","99.83% LFW Accuracy",B.H4,B.nj)
+B.DS=new A.w(1,0.5450980392156862,0.3607843137254902,0.9647058823529412,B.e)
+B.Rr=new A.lr("Cross-Platform Native C++ Engine","Ultra-lean C++ core with zero-copy memory pipelines powering Flutter clients across Windows, macOS, Android, iOS, and Linux.","FLUTTER & C++ FFI","Portable & Lightweight",B.ox,B.DS)
+B.Js=s([B.Rm,B.Rq,B.Rp,B.Ro,B.Rn,B.Rr],A.ax("C<lr>"))
 B.a3=new A.Ck(0,"upstream")
 B.Ju=s([B.a3,B.i],A.ax("C<Ck>"))
 B.ap=new A.Co(0,"rtl")
@@ -90837,42 +90839,40 @@ B.AQ=new A.vk(2,"bottomLeft")
 B.Yi=new A.lI(B.AP,B.AQ)
 B.Yj=new A.lI(B.AQ,B.AP)
 B.JG=s([B.Yh,B.Yk,B.Yi,B.Yj],A.ax("C<lI>"))
-B.Rm=new A.lr("Edge Face Detection & Landmark Extraction","Sub-millisecond SCRFD neural inference on local CPU/GPU. Detects multi-scale faces and 5 facial keypoints with zero cloud transmission.","SIMD / DML ACCELERATED","< 1.8ms latency",B.kA,B.cO)
-B.Rq=new A.lr("Zero-Cloud Privacy Architecture","100% of embeddings, facial vectors, and metadata remain strictly on user hardware. Full compliance with strict privacy regulations.","ABSOLUTE LOCAL SECURITY","0 KB Cloud Upload",B.ou,B.jj)
-B.Rp=new A.lr("Graph-Based Unsupervised Clustering","High-throughput Chinese Whispers & DBSCAN graph clustering algorithms capable of grouping 100,000+ faces in seconds.","CHINESE WHISPERS & DBSCAN","100k+ Photos / min",B.oy,B.fR)
-B.GZ=new A.c8(63091,"MaterialIcons",!1)
-B.Ro=new A.lr("Hardware SHA-256 & Exact Deduplication","Hardware-accelerated crypto hashing combined with 512-D cosine similarity detects duplicate photos, rotated copies, and bursts instantly.","ZERO-OVERHEAD DEDUP","2.4 GB/s Hash Speed",B.GZ,B.fX)
-B.H4=new A.c8(983280,"MaterialIcons",!1)
-B.nj=new A.w(1,0.9607843137254902,0.6196078431372549,0.043137254901960784,B.e)
-B.Rn=new A.lr("High-Precision ArcFace Recognition","Deep 512-dimensional facial embeddings trained on diverse global identities for state-of-the-art cosine similarity recognition.","512-D ARCFACE EMBEDDINGS","99.83% LFW Accuracy",B.H4,B.nj)
-B.DS=new A.w(1,0.5450980392156862,0.3607843137254902,0.9647058823529412,B.e)
-B.Rr=new A.lr("Cross-Platform Native C++ Engine","Ultra-lean C++ core with zero-copy memory pipelines powering Flutter clients across Windows, macOS, Android, iOS, and Linux.","FLUTTER & C++ FFI","Portable & Lightweight",B.ox,B.DS)
-B.JH=s([B.Rm,B.Rq,B.Rp,B.Ro,B.Rn,B.Rr],A.ax("C<lr>"))
-B.JJ=s([35,30,20,25,30,35,30,25,25],t.n)
-B.JM=s(["click","scroll"],t.s)
+B.JI=s([35,30,20,25,30,35,30,25,25],t.n)
+B.JL=s(["click","scroll"],t.s)
 B.Cs=new A.m3()
 B.i7=new A.NL(1,"page")
 B.i8=new A.et(B.b8,B.i7)
-B.JN=s([B.Cs,B.i8],A.ax("C<b3>"))
-B.JV=s([],t.QP)
+B.JM=s([B.Cs,B.i8],A.ax("C<b3>"))
+B.JU=s([],t.QP)
 B.oV=s([],A.ax("C<aTe>"))
-B.JZ=s([],t.D)
-B.K_=s([],t.fJ)
-B.K0=s([],t.ER)
+B.JY=s([],t.D)
+B.JZ=s([],t.fJ)
+B.K_=s([],t.ER)
 B.ZT=s([],t.ss)
 B.oW=s([],t.tc)
 B.hE=s([],t.jl)
 B.oU=s([],t.wi)
-B.JS=s([],A.ax("C<jS<@>>"))
+B.JR=s([],A.ax("C<jS<@>>"))
 B.kG=s([],t.AO)
-B.JU=s([],t.D1)
+B.JT=s([],t.D1)
 B.hF=s([],t.QF)
-B.JY=s([],t.Lx)
-B.JR=s([],t.AS)
+B.JX=s([],t.Lx)
+B.JQ=s([],t.AS)
 B.ZU=s([],t.p)
-B.JQ=s([],t.t)
+B.JP=s([],t.t)
 B.oX=s([],t.ee)
-B.JW=s([],t.XS)
+B.JV=s([],t.XS)
+B.H7=new A.c8(983477,"MaterialIcons",!1)
+B.Oj=new A.q6("CPU-GPU Parallel Scanning","CPU-GPU Multi-threaded background worker pool decodes and scans directories concurrently with zero UI freeze.",B.H7)
+B.GY=new A.c8(63084,"MaterialIcons",!1)
+B.Ok=new A.q6("Hardware SHA-256 Deduplication","Instant file hashing detects duplicate photos, rotated copies, and exact matches across disks.",B.GY)
+B.H5=new A.c8(983357,"MaterialIcons",!1)
+B.Om=new A.q6("Vector Search & Smart Filtering","Search across clusters by person count, expression, photo date, camera model, or similar faces.",B.H5)
+B.GO=new A.c8(61586,"MaterialIcons",!1)
+B.Ol=new A.q6("Lossless Privacy Exporting","Export curated albums or batch-rename files into structured folders without modifying original assets.",B.GO)
+B.K0=s([B.Oj,B.Ok,B.Om,B.Ol],A.ax("C<q6>"))
 B.hU=new A.i(0,2)
 B.C1=new A.b4(0.75,B.w,B.nf,B.hU,1.5)
 B.K6=s([B.C1],t.V)
@@ -90896,9 +90896,9 @@ B.ZO=s(["Graduation","Campus","High Res"],t.s)
 B.Fd=new A.iH("e4","Person #8 (Lucas)",88,0.979,"LU")
 B.oZ=s([B.Fj,B.Fe,B.Fi,B.Fd],t.x_)
 B.IQ=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
-B.JO=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
+B.JN=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
 B.J2=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.Kg=s([B.IQ,B.JO,B.J2],t.zg)
+B.Kg=s([B.IQ,B.JN,B.J2],t.zg)
 B.Kh=s([45,95,45,20,45,90,45,45,45],t.n)
 B.Ki=s([120,120,20,45,20,15,20,120,120],t.n)
 B.dG=new A.hy(0,"controlModifier")
@@ -90983,7 +90983,7 @@ B.ao=new A.LD(0,"min")
 B.C=new A.LD(1,"max")
 B.MG={in:0,iw:1,ji:2,jw:3,mo:4,aam:5,adp:6,aue:7,ayx:8,bgm:9,bjd:10,ccq:11,cjr:12,cka:13,cmk:14,coy:15,cqu:16,drh:17,drw:18,gav:19,gfx:20,ggn:21,gti:22,guv:23,hrr:24,ibi:25,ilw:26,jeg:27,kgc:28,kgh:29,koj:30,krm:31,ktr:32,kvs:33,kwq:34,kxe:35,kzj:36,kzt:37,lii:38,lmm:39,meg:40,mst:41,mwj:42,myt:43,nad:44,ncp:45,nnx:46,nts:47,oun:48,pcr:49,pmc:50,pmu:51,ppa:52,ppr:53,pry:54,puz:55,sca:56,skk:57,tdu:58,thc:59,thx:60,tie:61,tkk:62,tlw:63,tmp:64,tne:65,tnf:66,tsf:67,uok:68,xba:69,xia:70,xkh:71,xsj:72,ybd:73,yma:74,ymt:75,yos:76,yuu:77}
 B.bF=new A.bV(B.MG,["id","he","yi","jv","ro","aas","dz","ktz","nun","bcg","drl","rki","mom","cmr","xch","pij","quh","khk","prs","dev","vaj","gvr","nyc","duz","jal","opa","gal","oyb","tdf","kml","kwv","bmf","dtp","gdj","yam","tvd","dtp","dtp","raq","rmx","cir","mry","vaj","mry","xny","kdz","ngv","pij","vaj","adx","huw","phr","bfy","lcq","prt","pub","hle","oyb","dtp","tpo","oyb","ras","twm","weo","tyj","kak","prs","taj","ema","cax","acn","waw","suj","rki","lrr","mtm","zom","yug"],t.li)
-B.JX=s([],t.V)
+B.JW=s([],t.V)
 B.bN=new A.w(0.2,0,0,0,B.e)
 B.C0=new A.b4(-1,B.w,B.bN,B.hU,1)
 B.bO=new A.w(0.1411764705882353,0,0,0,B.e)
@@ -91038,7 +91038,7 @@ B.MS=new A.i(0,24)
 B.Ce=new A.b4(3,B.w,B.bO,B.MS,38)
 B.C8=new A.b4(8,B.w,B.bC,B.vf,46)
 B.Jo=s([B.BX,B.Ce,B.C8],t.V)
-B.LY=new A.di([0,B.JX,1,B.Kd,2,B.IX,3,B.K7,4,B.Ia,6,B.J6,8,B.Iw,9,B.IO,12,B.Jc,16,B.Jb,24,B.Jo],A.ax("di<x,J<b4>>"))
+B.LY=new A.di([0,B.JW,1,B.Kd,2,B.IX,3,B.K7,4,B.Ia,6,B.J6,8,B.Iw,9,B.IO,12,B.Jc,16,B.Jb,24,B.Jo],A.ax("di<x,J<b4>>"))
 B.bS=new A.f(4294968065)
 B.lv=new A.ab(B.bS,!1,!1,!0,!1,B.n)
 B.bD=new A.f(4294968066)
@@ -91591,16 +91591,16 @@ B.Jj=s([B.bE,null,null,B.d_],t.L)
 B.Kj=s([B.bT,null,null,B.d0],t.L)
 B.K9=s([B.kL,null,null,B.kS],t.L)
 B.IS=s([B.f0,B.f0,B.hL,null],t.L)
-B.JK=s([B.aS,null,null,B.cX],t.L)
+B.JJ=s([B.aS,null,null,B.cX],t.L)
 B.Jk=s([B.cU,null,null,B.f3],t.L)
 B.IL=s([B.hH,null,null,B.kQ],t.L)
 B.Jl=s([B.cV,null,null,B.f5],t.L)
 B.Ka=s([B.f_,null,null,B.kR],t.L)
 B.IT=s([B.f2,B.f2,B.hN,null],t.L)
 B.Jm=s([B.eY,null,null,B.f4],t.L)
-B.JP=s([B.eZ,null,null,B.f6],t.L)
+B.JO=s([B.eZ,null,null,B.f6],t.L)
 B.IU=s([B.cw,B.cw,B.cW,null],t.L)
-B.Ma=new A.di(["*",B.IG,"+",B.K1,"-",B.Ja,".",B.JA,"/",B.I5,"0",B.Ke,"1",B.Kc,"2",B.IP,"3",B.Kk,"4",B.Kb,"5",B.IN,"6",B.I8,"7",B.IY,"8",B.K2,"9",B.K4,"Alt",B.IR,"AltGraph",B.Kf,"ArrowDown",B.Jh,"ArrowLeft",B.Ji,"ArrowRight",B.Jj,"ArrowUp",B.Kj,"Clear",B.K9,"Control",B.IS,"Delete",B.JK,"End",B.Jk,"Enter",B.IL,"Home",B.Jl,"Insert",B.Ka,"Meta",B.IT,"PageDown",B.Jm,"PageUp",B.JP,"Shift",B.IU],A.ax("di<q,J<f?>>"))
+B.Ma=new A.di(["*",B.IG,"+",B.K1,"-",B.Ja,".",B.JA,"/",B.I5,"0",B.Ke,"1",B.Kc,"2",B.IP,"3",B.Kk,"4",B.Kb,"5",B.IN,"6",B.I8,"7",B.IY,"8",B.K2,"9",B.K4,"Alt",B.IR,"AltGraph",B.Kf,"ArrowDown",B.Jh,"ArrowLeft",B.Ji,"ArrowRight",B.Jj,"ArrowUp",B.Kj,"Clear",B.K9,"Control",B.IS,"Delete",B.JJ,"End",B.Jk,"Enter",B.IL,"Home",B.Jl,"Insert",B.Ka,"Meta",B.IT,"PageDown",B.Jm,"PageUp",B.JO,"Shift",B.IU],A.ax("di<q,J<f?>>"))
 B.MJ={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.kW=new A.bV(B.MJ,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.MI={"zh-Hant":0,"zh-TW":1,"zh-MO":2,"zh-HK":3,ja:4,ko:5,zh:6,"zh-Hans":7,"zh-CN":8}
@@ -92188,9 +92188,9 @@ B.PT=new A.eH([B.PE,B.PB],A.ax("eH<j1>"))
 B.zu=new A.eH([B.af,B.aT,B.bW,B.b1,B.bl],t.Lu)
 B.EA=new A.w(0.23529411764705882,0,0,0,B.e)
 B.Ck=new A.b4(0.5,B.w,B.EA,B.vd,10)
-B.JL=s([B.Ck],t.V)
+B.JK=s([B.Ck],t.V)
 B.P2=new A.jZ(B.mz,B.o)
-B.PU=new A.ii(null,null,null,B.JL,B.P2)
+B.PU=new A.ii(null,null,null,B.JK,B.P2)
 B.PV=new A.ab(B.f_,!1,!0,!1,!1,B.n)
 B.zv=new A.ab(B.kJ,!1,!1,!1,!0,B.n)
 B.PW=new A.ab(B.p2,!0,!1,!1,!1,B.n)
