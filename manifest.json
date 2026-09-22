@@ -1,11 +1,11 @@
 {
-    "name": "flutter_smsgee_web",
-    "short_name": "flutter_smsgee_web",
+    "name": "SMSGEE | Pioneering On-Device Biometric Intelligence & Face Explorer",
+    "short_name": "SMSGEE",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#07090E",
+    "theme_color": "#07090E",
+    "description": "SMSGEE - Pioneering On-Device Biometric Intelligence, Edge Computer Vision, and Face Explorer.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
