@@ -87812,7 +87812,7 @@ A.GP.prototype={
 wB(){var s=0,r=A.R(t.H),q=1,p=[],o=this,n,m,l,k,j,i
 var $async$wB=A.S(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:o.a.toString
-n=A.fB("https://apps.microsoft.com/detail/dummy-face-explorer",0,null)
+n=A.fB("https://apps.microsoft.com/detail/9NKVDKHK9HK5",0,null)
 q=3
 s=6
 return A.N(A.av1(n,B.Ie),$async$wB)
